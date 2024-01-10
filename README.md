@@ -1,1 +1,9 @@
 # happiness_prediction_model
+
+This repository hosts a predictive model for life satisfaction, leveraging attributes like Log GDP per capita, Social support, Freedom to make life choices, Generosity, Perceptions of corruption, Positive affect, Negative affect, and Healthy life expectancy. The dataset, detailed within the repository, features continuous-valued attributes and a categorical Country name. Unfortunately, the collection year information is unavailable. Descriptive statistics and visualizations, such as histograms, provide insights into attribute distributions and potential outliers.
+
+The correlation analysis, employing the Pearson Correlation Coefficient (PCC) and scatter plots, explores relationships between attributes and their impact on life satisfaction. Test data, comprising 20% of the dataset, is reserved for model evaluation, with verification checks to ensure its representativeness.
+
+Model building encompasses Linear Regression using both Normal Equation and Stochastic Gradient Descent (SGD) methods, integrating regularization techniques (Ridge, Lasso, Elastic Net) for enhanced robustness. Hyperparameter exploration involves analyzing penalty terms, batch sizes, and learning rates, with loss display plots illustrating SGD convergence.
+
+Polymeral Regression is employed to assess overfitting/underfitting, using validation loss exploration to understand model behavior. Model evaluation involves predicting life satisfaction on the test data, using various performance metrics. The README serves as a comprehensive guide, detailing data exploration, model building, and evaluation procedures, with specific instructions for usage, testing, and potential contributions. This repository invites exploration, adaptation, and contributions to enhance the understanding and prediction of happiness based on diverse attributes.
