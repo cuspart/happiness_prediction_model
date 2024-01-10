@@ -1,0 +1,51 @@
+Certainly! Here's a revised and concise Git README description:
+
+---
+
+# Happiness Prediction Model
+
+## Overview
+
+This project aims to build a predictive model for life satisfaction (Life ladder) based on various attributes such as Log GDP per capita, Social support, Freedom to make life choices, Generosity, Perceptions of corruption, Positive affect, Negative affect, and Healthy life expectancy.
+
+## Data Summary
+
+- **Features**: Continuous-valued attributes include Log GDP per capita, Social support, Freedom to make life choices, Generosity, Perceptions of corruption, Positive affect, Negative affect, and Healthy life expectancy. Country name is categorical.
+- **Size**: Dataset size and the absence of collection year information.
+
+## Data Exploration
+
+- **Statistical Analysis**: Descriptive statistics for each attribute.
+- **Visualizations**: Histograms to visualize attribute distributions.
+- **Traits**: Exploration of skewed distributions and potential outliers.
+
+## Data Relationships
+
+- **Correlation Analysis**: Understanding relationships through Pearson Correlation Coefficient (PCC).
+- **Scatter Plots**: Visualizing attribute-to-attribute and attribute-to-label connections.
+
+## Test Data Selection
+
+- **Data Split**: Allocation of 20% for testing.
+- **Verification**: Ensuring the test data represents the entire dataset.
+
+## Model Building
+
+- **Linear Regression**: Utilizing Normal Equation and SGD with cross-validation.
+- **Regularization**: Application of Ridge, Lasso, and Elastic Net for optimal model performance.
+- **Hyperparameter Exploration**: Analysis of penalty term, batch size, and learning rate impact.
+- **Loss Display**: Training and validation loss plots for SGD.
+
+## Polynomial Regression
+
+- **Overfitting/Underfitting Check**: Exploration of model behavior using validation loss.
+
+## Model Evaluation
+
+- **Test Predictions**: Applying the trained model to the test data.
+- **Performance Metrics**: Summary of model performance using relevant evaluation metrics.
+- **Discussion**: Interpretation of results and potential avenues for further enhancement.
+
+---
+
+Feel free to adapt the description based on your specific implementation and results.
